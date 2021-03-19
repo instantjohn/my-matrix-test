@@ -1,0 +1,4 @@
+* コピペした
+[[https://matrix.org/docs/guides/usage-of-the-matrix-js-sdk][ここから]]
+
+試してみるなら main.mjs の 9,10,15行目の変数を設定して!!
