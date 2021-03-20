@@ -6,8 +6,8 @@ import sdk from 'matrix-js-sdk';
 const client = sdk.createClient("https://matrix.org");
 
 await client.login("m.login.password", {
-  "user": "", // <- ここにパスワード
-  "password": "" // <- ここにユーザーネーム
+  "password": "", // <- ここにパスワード
+  "user": "" // <- ここにユーザーネーム
 }).then((response) => {
     console.log(response.access_token);
 });
